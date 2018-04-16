@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/twoVC/twovc"
+  ],
+  "window":{
+   "backgroundTextStyle":"left",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "你好",
+    "navigationBarTextStyle":"black"
+  }
+}

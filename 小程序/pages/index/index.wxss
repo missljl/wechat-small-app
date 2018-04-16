@@ -1,0 +1,83 @@
+/**index.wxss**/
+
+/*轮播页*/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+}
+.waibian{
+ 
+   
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: initial; /* Safari 6.1+ */
+    display: flex;
+    justify-content: initial;
+}
+.leftimagecss{
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+ 
+  width:40%;
+  height:110px;
+  border-radius:10px;
+}
+.righttextcss{
+  margin-left: 10px;
+  height: 110px;
+  width: 70%;
+ 
+  
+  flex-wrap: wrap;
+  display: flex;
+ align-content: Space-around;
+}
+.titlecss{
+
+  height: 40px;
+  width: 100%;
+  margin-top: 5px;
+ font-size:medium;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  
+
+}
+.nicenamecss{
+  width: 100%;
+  height: 30px;
+  font-size:small;
+  -webkit-text-fill-color: lightgray;
+  
+
+}
+.timecss{
+ height: 20px;
+ width: 100%;
+
+ display: flex;
+  justify-content: space-between;
+}
+.playcunnter{
+ font-size:small;
+  -webkit-text-fill-color: blueviolet;
+   
+}
+.time{
+  margin-right: 10px;
+  font-size:small;
+  -webkit-text-fill-color: lawngreen;
+}

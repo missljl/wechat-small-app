@@ -1,0 +1,30 @@
+<!--index.wxml-->
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"bindtap="swipclick" />
+      </swiper-item>
+    </block>
+  </swiper> 
+
+
+  <block wx:for="{{yetinglist}}"> 
+  <view class='waibian' bindtap="readDetail" data-id="{{item.title}}">
+   <image src="{{item.smallLogo}}" class='leftimagecss'></image>
+   
+   <view class='righttextcss'>
+    
+     <text class='titlecss'>【夜听】{{item.title}}</text>
+      
+    
+    <text class='nicenamecss'>{{item.nickname}}</text>
+   
+        <view class='timecss'>
+          <text class='playcunnter'>播放次数:{{item.playtimes}}</text>
+          <text class='time'>收藏:{{item.likes}}</text>
+        </view>
+    
+   </view>
+ </view>
+ </block>
